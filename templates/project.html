@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% block activeproject%}active{% endblock activeproject%}
+{% block class%}position-relative{% endblock class%}
+{% block title %} Project {% endblock title %}
+{% block body %}
+  <h2 class="text-center my-3">My Projects</h2>
+
+  <figure class="text-center">
+    <blockquote class="blockquote">
+      <p>A well-known quote, contained in a blockquote element.</p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      Someone famous in <cite title="Source Title">Source Title</cite>
+    </figcaption>
+  </figure>
+
+
+
+  <div class="row my-3  justify-content-center">
+    <h2 class="text-center"></h2>
+    <div class="card mx-4" style="width: 18rem;">
+      <img src="https://source.unsplash.com/600x600/?code,css" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Programmer</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-success">More</a>
+      </div>
+    </div>
+    <div class="card mx-4" style="width: 18rem;">
+      <img src="https://source.unsplash.com/600x600/?technology" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Tech guy</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-success">More</a>
+      </div>
+    </div>
+    <div class="card mx-4" style="width: 18rem;">
+      <img src="https://source.unsplash.com/600x600/?gadgets" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Gadgets</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-success">More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-4 text-center">
+    <h1 class="my-3">This is my Video</h1>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ZVzgfmqCwGQ" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+
+  
+{% endblock body %}
